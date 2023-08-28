@@ -1,0 +1,23 @@
+.About-Container{
+    padding: 0 0 100px 0;
+}
+h1{
+    color: aqua;
+}
+.Underline{
+    width: 40%;
+    height: 10px;
+    background-image: linear-gradient(to left,red,black,red);
+    border-radius: 20px;
+    margin: auto;
+}
+.iconCheck{
+    color: aqua;
+}
+.LearnMoreBtn{
+    padding: 10px;
+    background-color: transparent;
+    color: rgb(73, 73, 158);
+    border: 2px solid rgb(73, 73, 158);
+    border-radius: 15px;
+}

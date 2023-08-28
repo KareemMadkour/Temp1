@@ -1,25 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+//import 'bootstrap/dist/css/bootstrap.min.css'; //react-bootstrap
+import MyNavbar from './Components/Navbar/Navbar';
+import MyHome from './Components/Home/Home';
+import MyLogo from './Components/Logo/Logo';
+import MyAbout from './Components/About/About';
+import MyMiniFAQ from './Components/MiniFAQ/MiniFAQ';
+import MyServices from './Components/Services/Services';
+import MyCallToAction from './Components/CallToAction/CallToAction';
+import MyTeam from './Components/Team/Team';
+import MyPricing from './Components/Pricing/Pricing';
+import MyContact from './Components/Contact/Contact';
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+        <MyNavbar />
+        <MyHome />
+        <MyLogo />
+        <MyAbout />
+        <MyMiniFAQ />
+        <MyServices />
+        <MyCallToAction />
+        <MyTeam />
+        <MyPricing />
+        <MyContact />
+    </>
+  )
 }
-
-export default App;

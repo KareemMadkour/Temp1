@@ -1,0 +1,41 @@
+.Pricing-Container {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.Header {
+    padding-bottom: 30px;
+}
+
+.Underline {
+    width: 40%;
+    height: 10px;
+    background-image: linear-gradient(to left, red, black, red);
+    border-radius: 20px;
+    margin: auto;
+}
+.getStartedBtn{
+    background-color: rgb(4, 88, 88);
+}
+.check{
+    color: rgb(5, 216, 5);
+}
+.times{
+    color: gray;
+}
+.makeLineThrough{
+    text-decoration: line-through;
+}
+.theSpecialCard{
+    border-top: 5px white solid;
+}
+.Card{
+    transition: all 0.7s;
+    margin: 5px 0px;
+}
+.card-text{
+    text-align: center;
+}
+.Card:hover{
+    transform: translateY(-10px);
+}

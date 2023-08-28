@@ -1,0 +1,27 @@
+.Contact-Container {
+    padding: 50px 0;
+}
+
+.Header {
+    padding-bottom: 30px;
+}
+
+.Underline {
+    width: 40%;
+    height: 10px;
+    background-image: linear-gradient(to left, red, black, red);
+    border-radius: 20px;
+    margin: auto;
+}
+
+.Contact-Card {
+    box-shadow: -5px -5px 10px gray;
+}
+
+.Contact-Form {
+    box-shadow: 5px -5px 10px gray;
+}
+
+.contact-button{
+    text-align: center;
+}

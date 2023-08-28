@@ -1,0 +1,14 @@
+.Img-Container {
+    padding: 100px 0;
+}
+
+.Img-Container img {
+    width: 70%;
+    height: 70%;
+    filter: grayscale(100%);
+    transition: all 1s;
+}
+.Img-Container img:hover{
+    filter: grayscale(0%);
+    transform: scale(1.2);
+}

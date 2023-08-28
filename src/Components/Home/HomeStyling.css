@@ -1,0 +1,23 @@
+.HomePage {
+    padding: 150px 0 150px 80px;
+    background-color: blueviolet;
+}
+
+.HomePage h2 {
+    color: gray;
+}
+
+img {
+    width: 70%;
+    height: 100%;
+}
+
+.HomePage a {
+    border: 2px white solid;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.HomePage a:hover {
+    background-color: rgb(179, 176, 176);
+}

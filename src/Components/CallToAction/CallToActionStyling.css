@@ -1,0 +1,26 @@
+.CallToAction-Container {
+    padding: 50px 20px;
+    background-image: url('./BuildingAction.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    padding: 50px 0;
+}
+.CallToAction-Container p{
+    color: white;
+}
+
+.CallToAction-Btn {
+    color: white;
+    padding: 15px;
+    border-radius: 20px;
+    border: 2px white solid;
+    background-color: transparent;
+    transition: all 0.7s;
+    position: absolute;
+    right: 20px;
+}
+
+.CallToAction-Btn:hover {
+    background-color: rgb(51, 160, 160);
+}

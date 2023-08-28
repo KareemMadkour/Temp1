@@ -1,0 +1,29 @@
+img {
+    width: 400px;
+    height: 400px;
+}
+
+p {
+    text-align: left;
+}
+
+h2 {
+    color: blueviolet;
+    text-align: left;
+}
+
+.Acc-Header {
+    text-align: left;
+    font-size: 20px;
+}
+.accordion{
+    border: 1px black solid;
+    text-align: center;
+}
+
+.accordion-button {
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 5px;
+    font-weight: bold;
+}

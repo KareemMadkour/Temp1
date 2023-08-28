@@ -1,0 +1,32 @@
+.Services-Container {
+    padding: 50px 0;
+}
+
+.Header {
+    padding-bottom: 30px;
+}
+
+.Underline {
+    width: 40%;
+    height: 10px;
+    background-image: linear-gradient(to left, red, black, red);
+    border-radius: 20px;
+    margin: auto;
+}
+
+.icon {
+    color: rgb(76, 0, 255);
+}
+
+.Card {
+    box-shadow: 5px 5px 5px gray;
+    transition: all 1s;
+}
+
+.Card:hover {
+    transform: translateY(-10px);
+}
+
+.Card:hover .subtitle {
+    color: rgb(76, 0, 255);
+}
