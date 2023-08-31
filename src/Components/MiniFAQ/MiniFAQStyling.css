@@ -1,6 +1,9 @@
+.MiniFAQ-Container{
+    width: 100%;
+}
 img {
-    width: 400px;
-    height: 400px;
+    width: 80%;
+    height: 80%;
 }
 
 p {

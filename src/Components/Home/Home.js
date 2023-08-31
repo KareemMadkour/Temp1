@@ -10,7 +10,7 @@ export default function MyHome() {
         <>
             <Container fluid className="HomePage" id='home'>
                 <Row>
-                    <Col>
+                    <Col lg={6}>
                         <h1>Better Solutions For Your Business</h1>
                         <br />
                         <h2>We are team of talented designers making websites with Bootstrap</h2>
@@ -19,7 +19,7 @@ export default function MyHome() {
                             <Nav.Link href="#about">Get Started</Nav.Link>
                         </Nav>
                     </Col>
-                    <Col>
+                    <Col lg={6}>
                         <img src={HomeImg} alt='Error' />
                     </Col>
                 </Row>

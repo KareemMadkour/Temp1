@@ -9,7 +9,7 @@ export default function MyMiniFAQ() {
         <>
             <Container className="MiniFAQ-Container">
                 <Row>
-                    <Col md={8}>
+                    <Col lg={6}>
                         <h2>Eum ipsam laborum deleniti <b>velit pariatur architecto aut nihil</b></h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit</p>
                         <Accordion defaultActiveKey="0" flush>
@@ -33,7 +33,7 @@ export default function MyMiniFAQ() {
                             </Accordion.Item>
                         </Accordion>
                     </Col>
-                    <Col md={4}>
+                    <Col lg={6}>
                         <img src={ComputerImg} alt="Not Found" />
                     </Col>
                 </Row>

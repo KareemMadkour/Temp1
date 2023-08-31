@@ -1,5 +1,6 @@
 import React from 'react';
 //import 'bootstrap/dist/css/bootstrap.min.css'; //react-bootstrap
+import './App.css'
 import MyNavbar from './Components/Navbar/Navbar';
 import MyHome from './Components/Home/Home';
 import MyLogo from './Components/Logo/Logo';

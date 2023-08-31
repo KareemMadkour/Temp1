@@ -1,13 +1,15 @@
 .HomePage {
     padding: 150px 0 150px 80px;
     background-color: blueviolet;
+    width: 95%;
+    height: 120vh;
 }
 
 .HomePage h2 {
     color: gray;
 }
 
-img {
+.HomePage img {
     width: 70%;
     height: 100%;
 }
